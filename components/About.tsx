@@ -3,14 +3,14 @@ import React from 'react';
 
 const About: React.FC = () => {
   return (
-    <section id="about" className="py-20 bg-white">
+    <section id="about" className="min-h-screen flex items-center py-12 bg-white">
       <div className="container mx-auto px-6">
-        <div className="flex flex-col md:flex-row items-center gap-12">
+        <div className="flex flex-col md:flex-row items-center gap-8">
           <div className="md:w-1/2">
             <img 
               src="https://picsum.photos/id/1027/600/700" 
               alt="Ritratto del professionista" 
-              className="rounded-lg shadow-xl w-full h-auto object-cover"
+              className="rounded-lg shadow-xl w-full h-auto max-h-96 object-cover"
             />
           </div>
           <div className="md:w-1/2 text-center md:text-left">

@@ -3,7 +3,7 @@ import React from 'react';
 
 const Location: React.FC = () => {
   return (
-    <section id="location" className="py-20 bg-white">
+    <section id="location" className="min-h-screen flex items-center py-20 bg-white">
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-800 mb-2 font-lora">Dove Trovarmi</h2>

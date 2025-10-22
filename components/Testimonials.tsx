@@ -4,7 +4,7 @@ import { TESTIMONIALS } from '../constants';
 
 const Testimonials: React.FC = () => {
   return (
-    <section id="testimonials" className="py-20 bg-emerald-50">
+    <section id="testimonials" className="min-h-screen flex items-center py-20 bg-emerald-50">
       <div className="container mx-auto px-6 text-center">
         <h2 className="text-3xl font-bold text-gray-800 mb-2 font-lora">Cosa Dicono i Miei Clienti</h2>
         <p className="text-gray-600 max-w-2xl mx-auto mb-12">

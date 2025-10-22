@@ -4,16 +4,26 @@ const LogoIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
   <svg 
     {...props} 
     xmlns="http://www.w3.org/2000/svg" 
-    fill="none" 
-    viewBox="0 0 24 24" 
-    strokeWidth={1.5} 
-    stroke="currentColor"
+    viewBox="0 0 24 24"
   >
-    <path 
-      strokeLinecap="round" 
-      strokeLinejoin="round" 
-      d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456z" 
-    />
+    {/* Fiore di Loto - Simbolo di purezza, illuminazione e rinascita */}
+    {/* Petalo centrale superiore */}
+    <path d="M12 2C12 2 10 6 10 9C10 10.1 10.9 11 12 11C13.1 11 14 10.1 14 9C14 6 12 2 12 2Z" fill="#ec4899" />
+    
+    {/* Petalo sinistro */}
+    <path d="M6 8C6 8 4 11 4 13C4 14.66 5.34 16 7 16C8.66 16 10 14.66 10 13C10 11 8 8 6 8Z" fill="#ec4899" opacity="0.9" />
+    
+    {/* Petalo destro */}
+    <path d="M18 8C18 8 16 11 14 13C14 14.66 15.34 16 17 16C18.66 16 20 14.66 20 13C20 11 18 8 18 8Z" fill="#ec4899" opacity="0.9" />
+    
+    {/* Petalo inferiore sinistro */}
+    <path d="M8 12C8 12 6 15 6 17C6 18.66 7.34 20 9 20C10.66 20 12 18.66 12 17C12 15 10 12 8 12Z" fill="#ec4899" opacity="0.8" />
+    
+    {/* Petalo inferiore destro */}
+    <path d="M16 12C16 12 14 15 12 17C12 18.66 13.34 20 15 20C16.66 20 18 18.66 18 17C18 15 16 12 16 12Z" fill="#ec4899" opacity="0.8" />
+    
+    {/* Centro del fiore */}
+    <circle cx="12" cy="13" r="2" fill="#fbbf24" opacity="0.95" />
   </svg>
 );
 

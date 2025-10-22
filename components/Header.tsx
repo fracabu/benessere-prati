@@ -16,8 +16,8 @@ const Header: React.FC = () => {
   return (
     <header className="bg-white/80 backdrop-blur-md sticky top-0 z-50 shadow-sm">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
-        <a href="#home" onClick={(e) => handleScroll(e, '#home')} className="flex items-center text-2xl font-bold text-emerald-800 font-lora gap-2">
-          <LogoIcon className="w-8 h-8" />
+        <a href="#home" onClick={(e) => handleScroll(e, '#home')} className="flex items-center text-3xl font-bold text-emerald-700 font-cinzel gap-3">
+          <LogoIcon className="w-16 h-16" />
           <span>Benessere Prati</span>
         </a>
         <nav className="hidden md:flex items-center space-x-8">
