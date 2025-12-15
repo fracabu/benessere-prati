@@ -1,132 +1,112 @@
-# 🧘‍♀️ Benessere Prati - Yoga, Shiatsu & Reiki a Roma
+<h1 align="center">Benessere Prati</h1>
+<h3 align="center">Yoga, Shiatsu & Reiki in Rome</h3>
 
-Sito web ufficiale per **Benessere Prati**, centro di benessere specializzato in yoga, shiatsu e reiki situato a Roma, quartiere Prati.
+<p align="center">
+  <em>Modern wellness center website with booking system</em>
+</p>
 
-## 📋 Descrizione
+<p align="center">
+  <img src="https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=white" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/Rome-Prati-green?style=flat-square" alt="Rome" />
+</p>
 
-Questo progetto è una landing page moderna e responsive realizzata per promuovere i servizi di benessere offerti dal centro. Include sezioni per servizi, prenotazioni, testimonianze, informazioni sulla location e contatti.
-
-## 🚀 Tecnologie Utilizzate
-
-- **React 19.2.0** - Library UI
-- **TypeScript 5.8.2** - Type safety
-- **Vite 6.2.0** - Build tool e dev server
-- **React DOM 19.2.0** - DOM rendering
-
-## 📦 Installazione
-
-### Prerequisiti
-
-- Node.js (versione >= 20.19.0 consigliata, minimo v20.16.0)
-- npm (incluso con Node.js)
-
-### Setup
-
-1. **Clona il repository:**
-   ```bash
-   git clone https://github.com/fracabu/benessere-prati.git
-   cd benessere-prati
-   ```
-
-2. **Installa le dipendenze:**
-   ```bash
-   npm install
-   ```
-
-3. **Avvia il server di sviluppo:**
-   ```bash
-   npm run dev
-   ```
-
-4. **Apri il browser:**
-   - Local: http://localhost:3000/
-   - Vedrai l'app in esecuzione 🎉
-
-## 🛠️ Comandi Disponibili
-
-| Comando | Descrizione |
-|---------|-------------|
-| `npm install` | Installa le dipendenze del progetto |
-| `npm run dev` | Avvia il server di sviluppo Vite |
-| `npm run build` | Crea build di produzione |
-| `npm run preview` | Preview della build di produzione |
-
-## 📁 Struttura del Progetto
-
-```
-benessere-prati/
-├── components/           # Componenti React riutilizzabili
-│   ├── About.tsx        # Sezione Chi Siamo
-│   ├── Booking.tsx      # Form prenotazioni
-│   ├── Footer.tsx       # Footer del sito
-│   ├── Header.tsx       # Intestazione e navigazione
-│   ├── Hero.tsx         # Hero section principale
-│   ├── Location.tsx     # Informazioni sede e mappa
-│   ├── LogoIcon.tsx     # Logo componente
-│   ├── Services.tsx     # Servizi offerti
-│   └── Testimonials.tsx # Recensioni clienti
-├── App.tsx              # Componente principale
-├── constants.tsx        # Costanti e configurazioni
-├── types.ts             # Tipi TypeScript
-├── index.tsx            # Entry point React
-├── index.html           # Template HTML
-├── package.json         # Dipendenze e script
-├── tsconfig.json        # Configurazione TypeScript
-├── vite.config.ts       # Configurazione Vite
-├── metadata.json        # Metadati applicazione
-└── README.md            # Questo file
-```
-
-## 🌟 Funzionalità
-
-- ✅ Design responsive mobile-first
-- ✅ Sezione servizi (Yoga, Shiatsu, Reiki)
-- ✅ Sistema di prenotazioni
-- ✅ Testimonianze clienti
-- ✅ Integrazione mappa per location
-- ✅ Informazioni di contatto
-- ✅ Interfaccia moderna e accessibile
-
-## 🔧 Sviluppo
-
-### Build di Produzione
-
-Per creare una build ottimizzata per la produzione:
-
-```bash
-npm run build
-```
-
-I file compilati saranno nella cartella `dist/`.
-
-### Preview Build di Produzione
-
-Per testare la build di produzione localmente:
-
-```bash
-npm run preview
-```
-
-## 📝 Note
-
-- Se vedi warning di Browserslist, aggiorna i database con: `npx update-browserslist-db@latest`
-- Il progetto usa porta **3000** per il dev server (non la porta predefinita 5173 di Vite)
-- Warning EBADENGINE per `@vitejs/plugin-react` possono essere ignorati se Node >= v20.16.0
-
-## 👤 Autore
-
-**Francesco Capurso**
-- GitHub: [@fracabu](https://github.com/fracabu)
-
-## 📄 Licenza
-
-Questo progetto è privato e proprietario di Benessere Prati.
-
-## 🤝 Contributi
-
-Per qualsiasi richiesta o modifica, contatta il proprietario del repository.
+<p align="center">
+  :gb: <a href="#english">English</a> | :it: <a href="#italiano">Italiano</a>
+</p>
 
 ---
 
-Made with ❤️ for Benessere Prati - Roma
+<a name="english"></a>
+## :gb: English
 
+### Overview
+
+Official website for Benessere Prati, a wellness center in Rome's Prati district. Modern responsive landing page featuring yoga, shiatsu, and reiki services with booking functionality.
+
+### Features
+
+- **Service Showcase** - Yoga, Shiatsu, Reiki presentations
+- **Booking System** - Online appointment scheduling
+- **Testimonials** - Client reviews section
+- **Location Map** - Interactive map integration
+- **Mobile-First** - Responsive design for all devices
+
+### Sections
+
+| Component | Description |
+|-----------|-------------|
+| `Hero.tsx` | Main hero section |
+| `Services.tsx` | Services offered |
+| `Booking.tsx` | Booking form |
+| `Testimonials.tsx` | Client reviews |
+| `Location.tsx` | Map and address |
+
+### Quick Start
+
+```bash
+git clone https://github.com/fracabu/benessere-prati.git
+cd benessere-prati
+npm install
+npm run dev
+```
+
+Access at `http://localhost:3000`
+
+---
+
+<a name="italiano"></a>
+## :it: Italiano
+
+### Panoramica
+
+Sito web ufficiale per Benessere Prati, centro benessere nel quartiere Prati di Roma. Landing page moderna e responsive con servizi yoga, shiatsu e reiki e funzionalita di prenotazione.
+
+### Funzionalita
+
+- **Vetrina Servizi** - Presentazioni Yoga, Shiatsu, Reiki
+- **Sistema Prenotazioni** - Scheduling appuntamenti online
+- **Testimonianze** - Sezione recensioni clienti
+- **Mappa Location** - Integrazione mappa interattiva
+- **Mobile-First** - Design responsive per tutti i dispositivi
+
+### Sezioni
+
+| Componente | Descrizione |
+|------------|-------------|
+| `Hero.tsx` | Sezione hero principale |
+| `Services.tsx` | Servizi offerti |
+| `Booking.tsx` | Form prenotazioni |
+| `Testimonials.tsx` | Recensioni clienti |
+| `Location.tsx` | Mappa e indirizzo |
+
+### Avvio Rapido
+
+```bash
+git clone https://github.com/fracabu/benessere-prati.git
+cd benessere-prati
+npm install
+npm run dev
+```
+
+Accedi su `http://localhost:3000`
+
+---
+
+## Tech Stack
+
+- React 19, TypeScript 5.8
+- Vite 6.2
+
+## License
+
+MIT
+
+---
+
+<p align="center">
+  <a href="https://github.com/fracabu">
+    <img src="https://img.shields.io/badge/Made_by-fracabu-8B5CF6?style=flat-square" alt="Made by fracabu" />
+  </a>
+</p>
